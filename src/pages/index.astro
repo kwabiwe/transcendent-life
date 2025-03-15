@@ -1,0 +1,255 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Home">
+  <main>
+    <!-- Hero Section -->
+    <section class="relative h-screen flex items-center">
+      <div class="absolute inset-0 bg-tf-black/60 z-10"></div>
+      <div class="absolute inset-0">
+        <img
+          src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?ixlib=rb-4.0.3"
+          alt="Children studying together"
+          class="w-full h-full object-cover"
+        />
+      </div>
+      <div class="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-white">
+        <h1 class="font-display text-5xl md:text-7xl mb-6">
+          Empowering Lives Through Support & Mentorship
+        </h1>
+        <p class="text-xl md:text-2xl mb-8 max-w-2xl">
+          Providing mental health support and mentorship to nurture resilient, confident individuals capable of achieving their full potential.
+        </p>
+        <div class="flex gap-4">
+          <a
+            href="#contact"
+            class="bg-tf-gold text-white px-8 py-3 rounded-md font-semibold text-lg hover:bg-white hover:text-tf-black transition-colors duration-200"
+          >
+            Get Involved
+          </a>
+          <a
+            href="https://www.paypal.com/donate/?hosted_button_id=UA6YHEXJ6936U"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="bg-red-600 text-white px-8 py-3 rounded-md font-semibold text-lg hover:bg-red-700 transition-colors duration-200"
+          >
+            Donate
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white scroll-mt-20">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-3xl mx-auto text-center mb-16">
+          <h2 class="text-4xl font-display mb-6">Our Founding Purpose</h2>
+          <blockquote class="text-lg text-gray-600 italic mb-8">
+            "My purpose is to heed the divine calling I've received over many years, to serve as a conduit for God's message of hope, healing, and empowerment. Through mental health support and mentorship, I aim to nurture the well-being of children, guiding them towards emotional resilience and inner strength."
+            <footer class="text-tf-gold mt-4">– Eppy, Founder</footer>
+          </blockquote>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+          <div>
+            <h3 class="text-2xl font-display mb-4">Our Vision</h3>
+            <p class="text-gray-600 mb-6">
+              Empowering individuals to live with strength, wisdom & dignity, making a positive impact in their families & communities, rooted in faith and purpose.
+            </p>
+          </div>
+          <div>
+            <h3 class="text-2xl font-display mb-4">Our Mission</h3>
+            <p class="text-gray-600 mb-6">
+              Empowering and uplifting adults and children through comprehensive mental health support, mentorship, and skills development programmes. We aim to break generational cycles of lack and nurture resilient, confident individuals capable of achieving their full potential.
+            </p>
+          </div>
+        </div>
+
+        <div class="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div class="bg-gray-50 p-6 rounded-lg">
+            <h4 class="font-display text-xl mb-3 text-tf-gold">Compassion</h4>
+            <p class="text-gray-600">Ensuring compassionate and empathetic support in community-building endeavours.</p>
+          </div>
+          <div class="bg-gray-50 p-6 rounded-lg">
+            <h4 class="font-display text-xl mb-3 text-tf-gold">Inclusivity</h4>
+            <p class="text-gray-600">Ensuring diverse participation, accessible programmes, and cultural sensitivity.</p>
+          </div>
+          <div class="bg-gray-50 p-6 rounded-lg">
+            <h4 class="font-display text-xl mb-3 text-tf-gold">Empowerment</h4>
+            <p class="text-gray-600">Providing the right fit skills development and mentorship support for leadership opportunities.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Programs Section -->
+    <section id="programs" class="py-20 bg-gray-50 scroll-mt-20">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-4xl font-display text-center mb-16">Our Programs</h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 mb-16">
+          <div class="bg-white p-8 rounded-lg shadow-sm">
+            <h3 class="text-2xl font-display mb-4">Mental Health Support</h3>
+            <ul class="space-y-4 text-gray-600">
+              <li>• Professional counseling services</li>
+              <li>• Emotional well-being workshops</li>
+              <li>• Trauma support and healing</li>
+              <li>• Youth mental health programs</li>
+            </ul>
+          </div>
+          <div class="bg-white p-8 rounded-lg shadow-sm">
+            <h3 class="text-2xl font-display mb-4">Women Empowerment</h3>
+            <ul class="space-y-4 text-gray-600">
+              <li>• Skills development training</li>
+              <li>• Financial literacy programs</li>
+              <li>• Support groups for GBV survivors</li>
+              <li>• Leadership development</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="bg-white p-8 rounded-lg shadow-sm">
+          <h3 class="text-2xl font-display mb-6 text-center">Our Approach</h3>
+          <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+            <div>
+              <h4 class="font-semibold text-tf-gold mb-2">Tailored Support</h4>
+              <p class="text-gray-600">Customized programs meeting individual needs and circumstances</p>
+            </div>
+            <div>
+              <h4 class="font-semibold text-tf-gold mb-2">Holistic Approach</h4>
+              <p class="text-gray-600">Comprehensive support addressing multiple aspects of well-being</p>
+            </div>
+            <div>
+              <h4 class="font-semibold text-tf-gold mb-2">Community Engagement</h4>
+              <p class="text-gray-600">Partnerships with local organizations and stakeholders</p>
+            </div>
+            <div>
+              <h4 class="font-semibold text-tf-gold mb-2">Evidence-Based</h4>
+              <p class="text-gray-600">Continuous monitoring and evaluation of program impact</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Impact Section -->
+    <section id="impact" class="py-20 bg-white scroll-mt-20">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-4xl font-display text-center mb-16">Our Impact</h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16 text-center">
+          <div>
+            <h3 class="text-4xl font-bold text-tf-gold mb-2">1</h3>
+            <p class="text-gray-600">Countries Served</p>
+            <div class="mt-4 space-y-2 text-gray-500">
+              <p>South Africa</p>
+            </div>
+          </div>
+          <div>
+            <h3 class="text-4xl font-bold text-tf-gold mb-2">1000+</h3>
+            <p class="text-gray-600">Lives Impacted</p>
+          </div>
+          <div>
+            <h3 class="text-4xl font-bold text-tf-gold mb-2">100%</h3>
+            <p class="text-gray-600">Commitment to Change</p>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div class="bg-gray-50 p-8 rounded-lg">
+            <h3 class="text-2xl font-display mb-6">Target Beneficiaries</h3>
+            <ul class="space-y-4 text-gray-600">
+              <li>• Primary and secondary school children</li>
+              <li>• Independent women's social groups</li>
+              <li>• At-risk and juvenile youth</li>
+              <li>• GBV survivors</li>
+            </ul>
+          </div>
+          <div class="bg-gray-50 p-8 rounded-lg">
+            <h3 class="text-2xl font-display mb-6">Key Partnerships</h3>
+            <ul class="space-y-4 text-gray-600">
+              <li>• Schools and educational institutions</li>
+              <li>• Mental health professionals</li>
+              <li>• Government agencies</li>
+              <li>• Community organizations</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-tf-black text-white scroll-mt-20">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-3xl mx-auto text-center">
+          <h2 class="text-4xl font-display mb-6">Get Involved</h2>
+          <p class="text-gray-400 mb-12">
+            Join us in our mission to empower lives through guidance, mentorship, and personal growth. Together, we can create lasting positive change in our communities.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+          <div>
+            <h3 class="text-2xl font-display mb-6">Contact Us</h3>
+            <form class="space-y-6">
+              <div>
+                <label class="block text-sm font-medium mb-2">Name</label>
+                <input type="text" class="w-full px-4 py-3 rounded-md text-black" />
+              </div>
+              <div>
+                <label class="block text-sm font-medium mb-2">Email</label>
+                <input type="email" class="w-full px-4 py-3 rounded-md text-black" />
+              </div>
+              <div>
+                <label class="block text-sm font-medium mb-2">Message</label>
+                <textarea rows="4" class="w-full px-4 py-3 rounded-md text-black"></textarea>
+              </div>
+              <button type="submit" class="bg-tf-gold text-white px-8 py-3 rounded-md font-semibold hover:bg-white hover:text-tf-black transition-colors duration-200">
+                Send Message
+              </button>
+            </form>
+          </div>
+
+          <div>
+            <h3 class="text-2xl font-display mb-6">Newsletter</h3>
+            <p class="text-gray-400 mb-8">
+              Stay updated with our latest news, events, and opportunities to make a difference.
+            </p>
+            <form class="flex gap-4">
+              <input
+                type="email"
+                placeholder="Enter your email"
+                class="flex-1 px-4 py-3 rounded-md text-black"
+              />
+              <button
+                type="submit"
+                class="bg-tf-gold px-6 py-3 rounded-md font-semibold hover:bg-white hover:text-tf-black transition-colors duration-200"
+              >
+                Subscribe
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</Layout>
+
+<script>
+  // Smooth scrolling for anchor links
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+      const href = this.getAttribute('href');
+      if (!href) return;
+      
+      const target = document.querySelector(href);
+      if (!target) return;
+      
+      target.scrollIntoView({
+        behavior: 'smooth'
+      });
+    });
+  });
+</script>

@@ -1,0 +1,36 @@
+---
+const navItems = [
+  { label: 'About', href: '#about' },
+  { label: 'Programs', href: '#programs' },
+  { label: 'Impact', href: '#impact' },
+  { label: 'Contact', href: '#contact' },
+];
+---
+
+<header class="fixed w-full bg-white/95 backdrop-blur-sm z-50 border-b border-gray-100">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex justify-between items-center h-20">
+      <a href="#" class="flex items-center">
+        <span class="font-display text-2xl text-tf-black">Transcendent</span>
+      </a>
+
+      <nav class="hidden md:flex space-x-8">
+        {navItems.map(item => (
+          <a
+            href={item.href}
+            class="text-gray-700 hover:text-tf-gold transition-colors duration-200 font-medium"
+          >
+            {item.label}
+          </a>
+        ))}
+      </nav>
+
+      <a
+        href="#contact"
+        class="bg-tf-gold text-white px-6 py-2 rounded-md font-semibold hover:bg-tf-black transition-colors duration-200"
+      >
+        Get Involved
+      </a>
+    </div>
+  </div>
+</header>
